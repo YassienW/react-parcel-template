@@ -1,4 +1,4 @@
-import {Server, Model, Factory, belongsTo} from "miragejs";
+import {Server} from "miragejs";
 
 import route from "./route";
 
@@ -11,7 +11,7 @@ export function startMirage(environment = "development"){
         factories: {
 
         },
-        seeds(server){
+        seeds(){
 
         },
         routes(){
